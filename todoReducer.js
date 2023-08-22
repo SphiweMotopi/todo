@@ -1,4 +1,4 @@
-import { ADD_TODO, TOGGLE_TODO, EDIT_TODO, REMOVE_TODO } from "../actions/actionTypes";
+import { ADD_TODO, TOGGLE_TODO, EDIT_TODO, REMOVE_TODO } from "actionTypes";
 
 const initialState = {
   nextId: 2,

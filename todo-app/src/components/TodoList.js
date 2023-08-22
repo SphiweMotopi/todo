@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { toggleTodo, editTodo, removeTodo } from "todoActions";
+import { toggleTodo, editTodo, removeTodo } from "../actions/todoActions";
 import styled from "styled-components";
 
 const List = styled.ul`
